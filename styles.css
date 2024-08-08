@@ -18,9 +18,10 @@ body {
 h2,
 h3,
 h4 {
-    /* font-size: 2.2em; */
     color: #002695;
+    /* text-align: center; */
 }
+
 
 a {
     color: #000;
@@ -124,51 +125,49 @@ header nav a.cta-button {
     flex-direction: column;
 }
 
+.alt-header {
+    font-size: 1.5em;
+    color: #002695;
+}
+
 /* Advantages Section */
 .advantages {
+    height: 100vh;
     padding: 50px 0;
+    /* gap: 20px; */
+}
+
+.advantages-header {
     text-align: center;
-    gap: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #002695;
 }
 
 .advantages .cards {
-    display: flex;
-    flex-direction: row;
-}
-
-.advantages .stats {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    /* padding: 20px; */
-}
-
-.advantages .explanation {
-    max-width: 800px;
-    padding: 20px;
-    height: 80px;
-    margin-top: 30px;
     text-align: left;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-    /* border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.advantages img {
+    height: 70%;
 }
 
 .advantages .stat {
-    justify-content: space-around;
+    height: 25%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /* align-items: center; */
+}
+
+.advantages p {
+    justify-content: space-around;
+    /* display: flex;
+    flex-direction: column; */
+    margin-left: 2%;
     font-size: 1.5rem;
-    margin-top: 30px;
-    background-color: #0f46ea;
-    color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    width: 20vw;
-    max-width: 200px;
-    height: 80px;
+    /* color: #fff; */
 }
 
 /* About Section */
