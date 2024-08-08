@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>AI Startup</title>
         <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -236,30 +237,20 @@
                 </div>
             </div>
         </section>
-        https://script.google.com/macros/s/AKfycbwR-ZjQdqs-qySQrx7x2HIPl1vegA95uz_Mj8T731ieyutRAAX5bakaBqLf94LmhQRm/exec
-        First Name: Last Name : Your Work Email Address: Company Name: Job
-        Title: Company Website (if applicable): Does your company currently use
-        any AI tools beyond simple chatbots? (Yes/No) What are your primary
-        goals regarding AI? (e.g., improve efficiency, enhance research,
-        streamline document creation) Is there anything else you'd like us to
-        know to better understand your needs? Thank you for your time! Thank you
-        for your time! We look forward to showing you how Wings can change your
-        legal workflow. We will contact you within the next 30 days
 
         <!-- Contact Section -->
         <section id="contact" class="contact">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <form
-                    class="gform"
-                    method="POST"
-                    data-email="example@email.net"
-                    action="https://script.google.com/macros/s/AKfycbwR-ZjQdqs-qySQrx7x2HIPl1vegA95uz_Mj8T731ieyutRAAX5bakaBqLf94LmhQRm/exec"
-                >
-                    <div class="form-elements">
+            <h2>Contact Us</h2>
+            <form
+                class="gform"
+                method="POST"
+                <!-- data-email="example@email.net" -->
+                action="https://script.google.com/macros/s/AKfycbwR-ZjQdqs-qySQrx7x2HIPl1vegA95uz_Mj8T731ieyutRAAX5bakaBqLf94LmhQRm/exec">
+                <div class="form-row-flex">
+                    <div class="form-column">
                         <fieldset class="pure-group">
                             <label for="name">Name: </label>
-                            <input id="name" name="name" placeholder="" />
+                            <input id="name" name="name" required placeholder="Full Name" />
                         </fieldset>
 
                         <fieldset class="pure-group">
@@ -272,102 +263,97 @@
                                 type="email"
                                 value=""
                                 required
-                                placeholder="your.name@email.com"
+                                placeholder="Email"
                             />
                         </fieldset>
-
-                        <fieldset class="pure-group">
-                            <label for="company">Company Name: </label>
-                            <input id="company" name="company" placeholder="" />
-                        </fieldset>
-
                         <fieldset class="pure-group">
                             <label for="job-title">Job Title: </label>
                             <input
                                 id="job-title"
                                 name="job-title"
-                                placeholder=""
-                            />
+                                placeholder="Title">
+                        </fieldset>
+
+                    </div>
+                    <div class="form-column">
+                        <fieldset class="pure-group">
+                            <label for="company">Company Name: </label>
+                            <input id="company" name="company" placeholder="Company" />
                         </fieldset>
 
                         <fieldset class="pure-group">
-                            <label for="company-website"
-                                >Company Website (if applicable):
+                            <label for="company-website">
+                                Company Website (if applicable):
                             </label>
                             <input
                                 id="company-website"
                                 name="company-website"
-                                placeholder=""
-                            />
+                                placeholder="Website Address">
                         </fieldset>
 
                         <fieldset class="pure-group">
-                            <label for="using-ai"
-                                >Does your company currently use any AI tools
-                                beyond simple chatbots?</label
-                            >
+                            Does your company currently use any AI tools
+                            beyond simple chatbots?
+                            <br>
+                            <label class="switch" for="using-ai">
                             <input
                                 id="using-ai"
                                 name="using-ai"
-                                type="checkbox"
-                            />
-                        </fieldset>
-
-                        <fieldset class="pure-group">
-                            <label for="goals"
-                                >What are your primary goals regarding AI?
+                                type="checkbox">
+                            <span class="slider round"></span>
                             </label>
-                            <textarea
-                                id="goals"
-                                name="goals"
-                                rows="10"
-                                placeholder="improve efficiency, enhance research, streamline document creation..."
-                            ></textarea>
                         </fieldset>
-
-                        <fieldset class="pure-group">
-                            <label for="message"
-                                >Is there anything else you'd like us to know to
-                                better understand your needs?
-                            </label>
-                            <textarea
-                                id="message"
-                                name="message"
-                                rows="5"
-                                placeholder=""
-                            ></textarea>
-                        </fieldset>
-
-                        <fieldset class="pure-group honeypot-field">
-                            <label for="honeypot"
-                                >To help avoid spam, utilize a Honeypot
-                                technique with a hidden text field; must be
-                                empty to submit the form! Otherwise, we assume
-                                the user is a spam bot.</label
-                            >
-                            <input
-                                id="honeypot"
-                                type="text"
-                                name="honeypot"
-                                value=""
-                            />
-                        </fieldset>
-
-                        <button
-                            class="button-success pure-button button-xlarge"
-                        >
-                            <i class="fa fa-paper-plane"></i>&nbsp;Send
-                        </button>
                     </div>
-                </form>
-                <!-- <form>
-                    <input type="text" placeholder="Your Name" />
-                    <input type="email" placeholder="Your Email" />
-                    <textarea placeholder="Your Message"></textarea>
-                    <button type="submit" class="cta-button">
-                        Send Message
+                </div>
+
+                    <fieldset class="pure-group">
+                        <label for="goals">
+                            What are your primary goals regarding AI?
+                        </label>
+                        <textarea
+                            id="goals"
+                            name="goals"
+                            rows="5"
+                            placeholder="improve efficiency, enhance research, streamline document creation..."
+                        ></textarea>
+                    </fieldset>
+
+                    <fieldset class="pure-group">
+                        <label for="message">
+                            Is there anything else you'd like us to know to
+                            better understand your needs?
+                        </label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="">
+                        </textarea>
+                    </fieldset>
+
+                    <fieldset class="pure-group honeypot-field">
+                        <label for="honeypot"
+                            >To help avoid spam, utilize a Honeypot
+                            technique with a hidden text field; must be
+                            empty to submit the form! Otherwise, we assume
+                            the user is a spam bot.
+                        </label>
+                        <input
+                            id="honeypot"
+                            type="text"
+                            name="honeypot"
+                            value="">
+                    </fieldset>
+
+                    <button class="button-success pure-button button-xlarge">
+                        <i class="fa fa-paper-plane"></i>&nbsp;Send
                     </button>
-                </form> -->
+            </form>
+
+            <div style="display:block" class="thankyou_message">
+                <!-- You can customize the thankyou message by editing the code below -->
+                <h2>We look forward to show you how Wings can elevate your business.</h2>
+                <img src="images/favicon.png" style="height: 15vh;">
             </div>
         </section>
 
@@ -382,5 +368,6 @@
                 </div>
             </div>
         </footer>
+        <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
     </body>
 </html>
