@@ -6,7 +6,8 @@ body {
     margin: 0;
     padding: 0;
     /* background-color: #f4f4f4; */
-    color: #333;
+    color: #555;
+    /* background-image: linear-gradient(to right, rgba(10,152,232,0.1), rgba(10,230,168,0.1)); */
 }
 
 .container {
@@ -34,7 +35,7 @@ a.cta-button {
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.1s ease;
 }
 
 a.cta-button:hover {
@@ -60,6 +61,8 @@ header img {
 
 header nav {
     float: right;
+    /* height: 100%; */
+    /* align-self: center;  // Middle of the block */
 }
 
 header nav a {
@@ -75,7 +78,6 @@ header nav a.cta-button {
 /* Hero Section */
 .hero {
     /* background: #0f46ea url("hero-bg.jpg") no-repeat center center/cover; */
-    color: #000;
     text-align: center;
     padding: 100px 0;
 }
@@ -84,7 +86,7 @@ header nav a.cta-button {
     font-size: 4em;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #000;
+    color: #333;
 }
 
 .hero p {
@@ -100,7 +102,7 @@ header nav a.cta-button {
 .screenshots {
     text-align: left;
     display: flex;
-    height: 100vh;
+    height: 80vh;
     width: 80%;
     margin: auto;
 }
@@ -132,7 +134,7 @@ header nav a.cta-button {
 
 /* Advantages Section */
 .advantages {
-    height: 100vh;
+    height: 80vh;
     padding: 50px 0;
     /* gap: 20px; */
 }
