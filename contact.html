@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Wings Platform</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="mobile-styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <div class="container header">
+                <a href="index.html">
+                    <img src="images/logo-color.png" alt="wings"
+                /></a>
+                <nav>
+                    <a href="platform.html">Platform</a>
+                    <a href="index.html#advantages">Advantages</a>
+                    <a href="services.html">Services</a>
+                    <a href="contact.html" class="cta-button">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form
+                class="gform"
+                method="POST"
+                action="https://script.google.com/macros/s/AKfycbwR-ZjQdqs-qySQrx7x2HIPl1vegA95uz_Mj8T731ieyutRAAX5bakaBqLf94LmhQRm/exec"
+            >
+                <div class="form-row-flex">
+                    <div class="form-column">
+                        <fieldset class="pure-group">
+                            <label for="name">Name: </label>
+                            <input
+                                id="name"
+                                name="name"
+                                required
+                                placeholder="Full Name"
+                            />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="email">
+                                <em>Your Work</em> Email Address:
+                            </label>
+                            <input
+                                id="email"
+                                name="email"
+                                type="email"
+                                value=""
+                                required
+                                placeholder="Email"
+                            />
+                        </fieldset>
+                        <fieldset class="pure-group">
+                            <label for="job-title">Job Title: </label>
+                            <input
+                                id="job-title"
+                                name="job-title"
+                                placeholder="Title"
+                            />
+                        </fieldset>
+                    </div>
+                    <div class="form-column">
+                        <fieldset class="pure-group">
+                            <label for="company">Company Name: </label>
+                            <input
+                                id="company"
+                                name="company"
+                                placeholder="Company"
+                            />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            <label for="company-website">
+                                Company Website (if applicable):
+                            </label>
+                            <input
+                                id="company-website"
+                                name="company-website"
+                                placeholder="Website Address"
+                            />
+                        </fieldset>
+
+                        <fieldset class="pure-group">
+                            Does your company currently use any AI tools beyond
+                            simple chatbots?
+                            <br />
+                            <label class="switch" for="using-ai">
+                                <input
+                                    id="using-ai"
+                                    name="using-ai"
+                                    type="checkbox"
+                                />
+                                <span class="slider round"></span>
+                            </label>
+                        </fieldset>
+                    </div>
+                </div>
+
+                <fieldset class="pure-group">
+                    <label for="goals">
+                        What are your primary goals regarding AI?
+                    </label>
+                    <textarea
+                        id="goals"
+                        name="goals"
+                        rows="5"
+                        placeholder="improve efficiency, enhance research, streamline document creation..."
+                    ></textarea>
+                </fieldset>
+
+                <fieldset class="pure-group">
+                    <label for="message">
+                        Is there anything else you'd like us to know to better
+                        understand your needs?
+                    </label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder=""
+                    ></textarea>
+                </fieldset>
+
+                <fieldset class="pure-group honeypot-field">
+                    <label for="honeypot"
+                        >To help avoid spam, utilize a Honeypot technique with a
+                        hidden text field; must be empty to submit the form!
+                        Otherwise, we assume the user is a spam bot.
+                    </label>
+                    <input id="honeypot" type="text" name="honeypot" value="" />
+                </fieldset>
+
+                <button class="button-success pure-button button-xlarge">
+                    <i class="fa fa-paper-plane"></i>&nbsp;Send
+                </button>
+            </form>
+
+            <div style="display: none" class="thankyou_message">
+                <!-- You can customize the thankyou message by editing the code below -->
+                <h2>
+                    We look forward to show you how Wings can elevate your
+                    business.
+                </h2>
+                <img src="images/favicon.png" style="height: 15vh" />
+            </div>
+        </section>
+
+        <script
+            data-cfasync="false"
+            type="text/javascript"
+            src="form-submission-handler.js"
+        ></script>
+        <!-- Footer Section -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Wings Platform. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
