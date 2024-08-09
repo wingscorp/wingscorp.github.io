@@ -1,0 +1,72 @@
+@media all and (max-width: 768px) {
+    /* Header */
+    .container {
+        width: 90%;
+    }
+
+    header img {
+        width: 15vw;
+    }
+
+    header nav a {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    header nav a.cta-button {
+        margin-left: 20px;
+    }
+
+    /* Hero */
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero {
+        height: 100vh;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+    }
+
+    /* Advantages Section */
+    .advantages img {
+        margin: auto;
+        height: 60%;
+    }
+
+    .advantages p {
+        font-size: 1rem;
+    }
+
+    /* Screenshots Section */
+    .screenshots {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .screenshots img {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .alt-text {
+        font-size: 1rem;
+        max-width: 100%;
+    }
+
+    .alt-header {
+        font-size: 2rem;
+    }
+
+    /* Services Section */
+    .services p {
+        font-size: 2em;
+    }
+
+    .services img {
+        width: 100%;
+    }
+}
