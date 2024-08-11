@@ -1,7 +1,7 @@
 @media all and (max-width: 768px) {
     /* Header */
     .container {
-        width: 90%;
+        width: 95%;
     }
 
     header img {
@@ -31,6 +31,10 @@
     }
 
     /* Advantages Section */
+    .advantages .stat {
+        height: 30%;
+    }
+
     .advantages img {
         margin: auto;
         height: 60%;
@@ -68,5 +72,10 @@
 
     .services img {
         width: 100%;
+    }
+
+    .contact .form-row-flex {
+        display: flex;
+        flex-direction: column;
     }
 }
