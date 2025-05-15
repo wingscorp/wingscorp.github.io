@@ -1,133 +1,29 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Wings Platform</title>
-        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
-        <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
-            integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet" href="mobile-styles.css" />
-        <!-- <link rel="stylesheet" href="infinity.css" /> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wings AI Platform | Enterprise AI Solutions</title>
+    <meta name="description" content="Fully transition your firm to the AI era with Wings' comprehensive solutions - combining tailored tools with professional development resources." />
+    <meta name="author" content="Wings AI" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <body>
-        <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> -->
-        <!-- Header Section -->
-        <header>
-            <div class="container header">
-                <a href="index.html">
-                    <img src="images/logo-color.png" alt="wings"
-                /></a>
-                <nav>
-                    <a href="platform.html">Platform</a>
-                    <a href="index.html#advantages">Advantages</a>
-                    <a href="services.html">Services</a>
-                    <a href="contact.html" class="cta-button">Contact</a>
-                </nav>
-            </div>
-        </header>
+    <meta property="og:title" content="Wings AI Platform | Enterprise AI Solutions" />
+    <meta property="og:description" content="Fully transition your firm to the AI era with Wings' comprehensive solutions - combining tailored tools with professional development resources." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <h1>Empowering Your AI<br>Ascend From Using AI to AI driven</h1>
-                <p>
-                    Wings aims to provide AI solution platform, alongside
-                    professional services and development for tailored AI-driven
-                    solutions, believing this unique combination is key to
-                    empowering organizations to thrive in the AI era
-                </p>
-                <img src="images/hero-icon.png"
-            </div>
-        </section>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@wings_ai" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  </head>
 
-        <!-- Screenshots/demo Section -->
-        <section>
-            <div class="screenshots">
-                <div class="alt-text">
-                    <p class="alt-header">AI Ascension</p>
-                    Achieve business advantage with AI through strategy,
-                    methodology, technology, and fostering organizational
-                    culture. Wings provides the technology and services to make
-                    it happen
-                </div>
-                <img src="images/screenshot1.svg" />
-            </div>
-        </section>
-
-        <!-- Advantages Section -->
-        <section class="container" id="advantages">
-            <p class="advantages-header">Advantages</p>
-            <div class="cards advantages">
-                <div class="stat">
-                    <img src="images/privacy-icon.png" />
-                    <p>
-                        Wings keeps your data exclusively yours, ensures all
-                        your information, including AI interactions, stays
-                        within your dedicated environment, preventing
-                        unauthorized use, training, or data retention
-                    </p>
-                </div>
-                <div class="stat">
-                    <img src="images/security-icon.png" />
-                    <p>
-                        Wings can be accessed securely within your network,
-                        behind your Single Sign-On (SSO), and is also available
-                        as a single-tenant solution, ensuring complete isolation
-                        and control over your sensitive information
-                    </p>
-                </div>
-                <div class="stat">
-                    <img src="images/adaptivity-icon.png" />
-                    <p>
-                        Wings ensures continuous access to the best AI, rapidly
-                        integrating new technologies while maintaining the
-                        highest standards of data privacy and security.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Footer Section -->
-        <footer>
-            <div class="container">
-                <p>&copy; 2024 Wings Platform. All rights reserved.</p>
-                <!-- <div class="social-media">
-                    <a href="#">Twitter</a>
-                    <a href="#">LinkedIn</a>
-                    <a href="#">GitHub</a>
-                </div> -->
-            </div>
-        </footer>
-
-        <script>// Get the button
-        let mybutton = document.getElementById("myBtn");
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-          if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-          document.body.scrollTop = 0;
-          document.documentElement.scrollTop = 0;
-        }</script>
-    </body>
+  <body>
+    <div id="root"></div>
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
