@@ -30,9 +30,6 @@ const Security = () => {
               {t('security.description')}
             </p>
             <div className="flex flex-wrap gap-4">
-              <ContactDialog>
-                <Button variant="default">{t('security.contactUs')}</Button>
-              </ContactDialog>
               <Button 
                 className="bg-white text-wings-blue hover:bg-gray-100 hover:text-wings-darkblue"
                 asChild
