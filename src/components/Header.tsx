@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { useLanguage } from '@/context/LanguageContext';
 import { Link, useLocation } from 'react-router-dom';
+import { ContactDialog } from "@/components/ContactDialog";
+
 
 const Header = () => {
   const { t, language, toggleLanguage, direction } = useLanguage();
@@ -120,7 +122,9 @@ const Header = () => {
             <a href="#security" onClick={(e) => handleNavClick(e, 'security')} className="text-gray-700 hover:text-wings-blue transition-colors py-2 border-b border-gray-100">{t('nav.security')}</a>
             <a href="#upskill" onClick={(e) => handleNavClick(e, 'upskill')} className="text-gray-700 hover:text-wings-blue transition-colors py-2 border-b border-gray-100">{t('nav.upskill')}</a>
             <a href="#pricing" onClick={(e) => handleNavClick(e, 'pricing')} className="text-gray-700 hover:text-wings-blue transition-colors py-2 border-b border-gray-100">{t('nav.pricing')}</a>
-            <Button className="bg-wings-blue hover:bg-wings-darkblue text-white">{t('nav.join')}</Button>
+            <ContactDialog>
+              <Button className="bg-wings-blue hover:bg-wings-darkblue text-white">{t('nav.join')}</Button>
+            </ContactDialog>
           </div>
         </nav>
       )}
