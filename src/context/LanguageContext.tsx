@@ -60,10 +60,11 @@ const translations = {
     
     // Professional Development
     'upskill.title': 'Professional Development',
-    'upskill.workshop.title': 'Upskill Workshop Series',
+    'upskill.workshop.title': 'Upskill Workshops',
     'upskill.workshop.description': 'Customized training sessions for firms or individuals with practical application using daily work documents. Maximize Wings capabilities for individual and organizational effectiveness.',
-    'upskill.strategy.title': 'AI Strategy Workshop',
-    'upskill.strategy.description': 'Executive-level workshop covering technological background, technology trends and their impact on professional services. Strategic implications for firms.',
+    'upskill.strategy.title': 'Upskill for executives',
+    'upskill.strategy.description': 'A management-level workshop providing a robust technological foundation for decision-making, understanding technological trends and their impact on your business, with a key focus on identifying business obstacles and pinpointing game-changing growth AI drivers.',
+    
     'upskill.contact': 'Contact Us',
     
     // Pricing
@@ -163,14 +164,14 @@ const translations = {
     
     // Professional Development
     'upskill.title': 'פיתוח מקצועי',
-    'upskill.workshop.title': 'סדרת סדנאות Upskill',
+    'upskill.workshop.title': 'סדנאות Upskill',
     'upskill.workshop.description': 'סדנאות הדרכה מותאמות אישית לפירמות או יחידים עם יישום מעשי באמצעות מסמכי עבודה יומיומיים. מקסם את יכולות Wings לאפקטיביות אישית וארגונית.',
-    'upskill.strategy.title': 'סדנת אסטרטגיית AI',
-    'upskill.strategy.description': 'סדנה ברמת מנהלים המכסה רקע טכנולוגי, מגמות טכנולוגיות והשפעתן על שירותים מקצועיים. השלכות אסטרטגיות לפירמות.',
+    'upskill.strategy.title': 'לבכירים Upskill',
+    'upskill.strategy.description': 'סדנה ברמת מנהלים המביאה רקע טכנולוגי כבסיס איתן לקבלת החלטות, מגמות טכנולוגיות והשפעתן על העסק. איתור חסמים וזיהוי מנועי צמיחה שוברי שיוויון',
     'upskill.contact': 'צור קשר',
     
     // Pricing
-    'pricing.title': 'תוכניות מנוי',
+    'pricing.title': 'מחירים',
     'pricing.description': 'בחר את התוכנית המתאימה לצרכים שלך',
     'pricing.base': 'חבילת Advanced Shield',
     'pricing.tier1': 'חבילת בסיס Tier 1',
@@ -178,9 +179,9 @@ const translations = {
     'pricing.features': 'תכולות ברישוי זה:',
     'pricing.tokens': '2M טוקנים - לשימוש במודלים המתקדמים ביותר',
     'pricing.storage': '100MB תיקיות - לניתוח מעמיק ו AI על המסמכים',
-    'pricing.translation': '50,000 תווים (כ 30 עמודים) - לתרגום ועם שמירת מבנה',
+    'pricing.translation': '50,000 תווים (כ 30 עמודים) - לתרגום עם שמירת מבנה',
     'pricing.ocr': '20 עמודים OCR - לסריקה מבוססת AI',
-    'pricing.extensions': 'הרחבות אופציונליות:',
+    'pricing.extensions': 'הרחבות:',
     'pricing.tokens.tier2': '8M טוקנים',
     'pricing.tokens.tier2.price': '+$10',
     'pricing.tokens.tier3': '12M טוקנים',
