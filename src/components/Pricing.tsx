@@ -130,6 +130,10 @@ const Pricing = () => {
                           <h6 className="font-medium">{t('pricing.ocr.more')}</h6>
                           <p className="text-wings-purple font-semibold">{t('pricing.ocr.more.price')}</p>
                         </div>
+                        <div className="bg-white p-4 rounded-lg shadow-sm">
+                          <h6 className="font-medium">{t('pricing.ocr.most')}</h6>
+                          <p className="text-wings-purple font-semibold">{t('pricing.ocr.most.price')}</p>
+                        </div>
                       </div>
                     </div>
                   </div>
